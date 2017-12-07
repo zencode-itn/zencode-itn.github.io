@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'rake'
+  # gem 'rake'
   gem 'github-pages'
-  gem 'jekyll-twitter-plugin'
+  # gem 'jekyll-twitter-plugin'
 end
