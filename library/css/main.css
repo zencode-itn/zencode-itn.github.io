@@ -30,3 +30,7 @@ background-position: center;*/
   line-height: 40px;
   background-color: #f5f5f5;
 }
+
+.img_div img{
+  padding: 0.5em;
+}
