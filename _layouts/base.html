@@ -15,23 +15,18 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 </head>
 <body>
-  {% include header.html %}
-  {% if page.title == index %}
-    {% include banner.html %}
-  {% endif %}
+  {% include header.html %} {% if page.title == index %} {% include banner.html %} {% endif %}
 
   <div class="container-fluid h-100">
-    <div class="row h-100 justify-content-center">
-	  <div class="col-md-9 fluid d-flex flex-column ">
-      <div class="row">
-        {{ content }}
+    <div class="row h-100 justify-content-center align-content-between">
+      <div class="col-md-9 fluid d-flex flex-column ">
+        <div class="row">
+          {{ content }}
+        </div>
       </div>
+      {% include twitter-sidebar.html %}
     </div>
-
-
-
-	{% include footer.html %}
   </div>
-  </div>
+  {% include footer.html %}
 </body>
 </html>
