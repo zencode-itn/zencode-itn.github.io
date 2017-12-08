@@ -9,8 +9,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://github.com/zencode-itn # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+collections:
+  researchers:
+    output: true
+    title: researcher
+
 
 # Build settings
 markdown: kramdown
@@ -18,7 +22,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
-  - 'jekyll-twitter-plugin'
 
 
 # Exclude from processing.

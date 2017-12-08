@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="profiles d-flex flex-row flex-wrap">
+  {% for researcher in site.researchers %}
+  <div class="card m-2">
+    <div class="card-body">
+      <img href="{{ researcher.url }}" class="card-img-top" src="{{researcher.profile-pic}}" alt="{{researcher.name}}">
+      <h2 class="card-title">
+        <a href="{{ researcher.url }}">{{ researcher.name }}</a>
+      </h2>
+      <div class="card-text">
+        <img class="org-img" src="{{ researcher.orginsation-pic }}" />
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

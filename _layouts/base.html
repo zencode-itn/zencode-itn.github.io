@@ -10,12 +10,16 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 </head>
 <body>
-  {% include header.html %} {% if page.title == index %} {% include banner.html %} {% endif %}
+  {% include header.html %}
+  {% if page.path == "index.html" %}
+    {% include banner.html %}
+  {% endif %}
 
   <div class="container-fluid h-100">
     <div class="row h-100 justify-content-center align-content-between">
@@ -24,7 +28,9 @@
           {{ content }}
         </div>
       </div>
-      {% include twitter-sidebar.html %}
+      {% if page.path == "index.html" %}
+        {% include twitter-sidebar.html %}
+      {% endif %}
     </div>
   </div>
   {% include footer.html %}
