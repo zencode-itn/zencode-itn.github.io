@@ -65,6 +65,9 @@ a {
   -webkit-column-count: 2;
   column-count: 2;
 }
+.profile h3{
+  color: #30A64A;
+}
 .secondment-entry img{
   height: auto;
   width: auto;
