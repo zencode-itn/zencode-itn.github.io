@@ -6,8 +6,8 @@ body {
   margin-bottom: 60px;
   font-family: sans-serif;
   background-image: url("../images/BackgroundZFIN.png");
-  /*background-repeat: no-repeat;
-background-attachment: fixed;
+  /*background-repeat: repeat;*/
+/*background-attachment: fixed;
 background-position: center;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -47,7 +47,7 @@ a {
   width: auto;
   max-width: 5em;
   max-height: 3em;
-  float: right;
+  float: left;
 }
 
 .org-img-lg{
@@ -55,7 +55,7 @@ a {
   width: auto;
   max-width: 10em;
   max-height: 6em;
-  float: right;
+  /*float: right;*/
 }
 
 .profile-img{
@@ -63,4 +63,22 @@ a {
   width: auto;
   max-width: 15em;
   /*max-height: 6em;*/
+}
+.secondment-entry img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+.secondments .card{
+  max-width: 48%;
+}
+.text-container{
+  margin-top: 1em;
+  padding: 1em;
+  background-color: rgba(250,250,250,0.75);
+}
+
+.vertical-bar{
+border-left: 1.2pt solid grey;
+margin-right: 0.25em;
 }
