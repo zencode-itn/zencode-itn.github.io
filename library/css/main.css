@@ -45,7 +45,7 @@ a {
 .org-img{
   height: auto;
   width: auto;
-  max-width: 5em;
+  max-width: 70%;
   max-height: 3em;
   float: left;
 }
@@ -53,16 +53,17 @@ a {
 .org-img-lg{
   height: auto;
   width: auto;
-  max-width: 10em;
-  max-height: 6em;
-  /*float: right;*/
+  max-height: 5em;
 }
 
 .profile-img{
   height: auto;
   width: auto;
   max-width: 15em;
-  /*max-height: 6em;*/
+}
+.profile>div{
+  -webkit-column-count: 2;
+  column-count: 2;
 }
 .secondment-entry img{
   height: auto;
@@ -81,4 +82,8 @@ a {
 .vertical-bar{
 border-left: 1.2pt solid grey;
 margin-right: 0.25em;
+}
+
+.social-media-div{
+  width: 50%;
 }
