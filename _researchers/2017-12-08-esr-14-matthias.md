@@ -8,20 +8,16 @@ github: mashehu
 twitter: mashehu
 ---
 ### Background
--   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
--   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.
+-   Born in Austria
+-   BSc in technical mathematics, TU Wien
+-   MSc in technical mathematics, TU Wien
+-   MSc in biomedical engineering, TU Wien
 
 ### Project
--   Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-   Building a database for zebrafish sequencing experiments (available at danio-code.zfin.org)
+-   New ways of visualizing genome data
+-   Gene regulation in early development of human and zebrafish
 
 ### Secondments
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-   February-March 2016 at ZFIN
+-   November-December 2016 at RIKEN
