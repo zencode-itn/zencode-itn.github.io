@@ -1,11 +1,12 @@
 ---
 layout: profile
-title: Zebra Fish
-name: Zebra Fish
+title: Amanda Evans
+name: Amanda Evans
 profile-pic: /library/images/square.png
-orginsation-pic: /library/images/partner_imperial_logo.png
-github: mashehu
-twitter: mashehu
+orginsation-pic: /library/images/partner_kings_logo.png
+github:
+twitter:
+linkedin:
 ---
 ### Background
 -   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

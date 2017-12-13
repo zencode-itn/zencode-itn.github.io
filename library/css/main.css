@@ -38,6 +38,10 @@ a {
   padding: 0.5em;
 }
 
+.profiles .card{
+  width: 17.5em;
+}
+
 .profiles .card-img-top{
   height:15em;
   width: auto;
@@ -47,7 +51,7 @@ a {
   width: auto;
   max-width: 70%;
   max-height: 3em;
-  float: left;
+  /*float: left;*/
 }
 
 .org-img-lg{
