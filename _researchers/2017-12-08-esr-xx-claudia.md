@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Claudia Dominguez Valls
-name: Zebra Fish
+name: Claudia Dominguez Valls
 profile-pic: /library/images/square.png
 orginsation-pic: /library/images/partner_giga_logo.png
 github:
