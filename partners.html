@@ -1,5 +1,6 @@
 ---
 layout: default
+header: map
 ---
 
 <div class="d-flex justify-content-center align-items-center align-content-between
@@ -14,3 +15,24 @@ layout: default
   <a href="http://www.riken.jp/en/"><img height=100 width=auto src="/library/images/partner_riken_logo.png">
   <a href="http://zfin.org/"><img height=100 width=auto src="/library/images/zfin_logo.png">
 </div>
+<div id="map" style="position: relative; width: 500px; height: 300px;"></div>
+<script>
+var basic_choropleth = new Datamap({
+element: document.getElementById("map"),
+projection: 'mercator',
+fills: {
+  defaultFill: "#ABDDA4",
+  authorHasTraveledTo: "#fa0fa0"
+},
+data: {
+  USA: { fillKey: "authorHasTraveledTo" },
+  JPN: { fillKey: "authorHasTraveledTo" },
+  ITA: { fillKey: "authorHasTraveledTo" },
+  CRI: { fillKey: "authorHasTraveledTo" },
+  KOR: { fillKey: "authorHasTraveledTo" },
+  DEU: { fillKey: "authorHasTraveledTo" },
+}
+});
+
+var colors = d3.scale.category10();
+</script>
