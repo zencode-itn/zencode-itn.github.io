@@ -16,6 +16,10 @@ background-position: center;*/
 }
 a {
   color:inherit;
+  text-decoration: underline;
+}
+a:hover{
+  color:  #30A64A;
 }
 .jumbotron{
   background-image: url("../images/zencode-banner-1.jpg");
@@ -99,6 +103,9 @@ margin-right: 0.25em;
 .social-media-div{
   color:#30A64A;
   width: 50%;
+}
+.social-media-div a{
+  text-decoration: none;
 }
 .fab{
 
