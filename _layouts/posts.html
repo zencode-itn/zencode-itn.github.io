@@ -1,0 +1,17 @@
+---
+layout: default
+title: Advanced Training Course (ATC)
+---
+
+
+{% for post in site.posts reversed %}
+<div class="card m-2 border-success">
+  <div class="card-body">
+    <h2 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h2> {% if post.excerpt %}
+    <div class="card-text">
+      {{ post.excerpt }}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
