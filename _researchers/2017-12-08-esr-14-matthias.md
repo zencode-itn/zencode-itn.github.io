@@ -9,9 +9,9 @@ twitter: mashehu
 ---
 ### Background
 -   Born in Austria
--   BSc in technical mathematics, TU Wien
--   MSc in technical mathematics, TU Wien
--   MSc in biomedical engineering, TU Wien
+-   BSc in technical mathematics, TU Wien, Austria
+-   MSc in technical mathematics, TU Wien, Austria
+-   MSc in biomedical engineering, TU Wien, Austria
 
 ### Project
 My Project consist of three main parts:
@@ -23,6 +23,9 @@ My Project consist of three main parts:
 -   [February-March 2016 at ZFIN](/secondments/2017-12-08-matthias-zfin.html)
 -   November-December 2016 at RIKEN
 -   2018 at Microdiscovery
+
+### Supervisor
+[Carsten O. Daub](https://www.daublab.org/)
 
 ### Keywords
 bioinformatics, database, genome visualization, early development
