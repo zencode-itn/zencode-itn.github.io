@@ -58,18 +58,23 @@ a {
   height: auto;
   width: auto;
   max-height: 5em;
+  align-self: center;
 }
 
 .profile-img{
   height: auto;
   width: auto;
   max-width: 15em;
+  align-self: center;
 }
-.profile>div{
+.profile{
+  max-width: 60em;
+}
+.profile-text{
   -webkit-column-count: 2;
   column-count: 2;
 }
-.profile h3{
+.profile h2, .profile h3{
   color: #30A64A;
 }
 .secondment-entry img{
@@ -92,5 +97,12 @@ margin-right: 0.25em;
 }
 
 .social-media-div{
+  color:#30A64A;
   width: 50%;
+}
+.fab{
+
+}
+hr{
+width: 100%;
 }
