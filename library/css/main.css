@@ -94,12 +94,19 @@ a:hover{
   background-color: rgba(250,250,250,0.75);
 }
 .post-image{
-  margin-left: auto;
   height: auto;
   width: auto;
   max-width: 90%;
 }
-
+.post-image-sm{
+  height: auto;
+  width: auto;
+  width: 50%;
+}
+.image-gallery{
+  /* height: 100vw; */
+  max-height: 2200px;
+}
 .vertical-bar{
 border-left: 1.2pt solid grey;
 margin-right: 0.25em;
