@@ -14,7 +14,7 @@ background-position: center;*/
   -o-background-size: cover;
   background-size: cover;
 }
-a {
+.container-fluid a {
   color:inherit;
   text-decoration: underline;
 }
@@ -55,7 +55,6 @@ a:hover{
   width: auto;
   max-width: 70%;
   max-height: 3em;
-  /*float: left;*/
 }
 
 .org-img-lg{
