@@ -104,8 +104,15 @@ a:hover{
   width: auto;
   width: 50%;
 }
+.post-image-jenga{
+  height: auto;
+  width: auto;
+  width: 33%;
+}
 .image-gallery{
-  /* height: 100vw; */
+  max-height: 1550px;
+}
+.image-gallery-jenga{
   max-height: 2200px;
 }
 .vertical-bar{

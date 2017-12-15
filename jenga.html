@@ -1,3 +1,14 @@
 ---
 layout: default
 ---
+<div class="text-container">
+
+<div class="image-gallery d-flex flex-column flex-wrap  align-self-start">
+{% for image in site.static_files %}
+{% if image.path contains 'images/jenga' %}
+<img src="{{ image.path }}" alt="image" class="post-image-jenga inline-block"/>
+{% endif %}
+{% endfor %}
+</div>
+
+</div>
