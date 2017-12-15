@@ -17,7 +17,7 @@ header: map
 </div>
 <div id="map" style="position: relative;"></div>
 <script type="text/javascript">
-var basic_choropleth = new Datamap({
+var map = new Datamap({
 element: document.getElementById("map"),
 projection: 'mercator',
 
@@ -38,7 +38,7 @@ geographyConfig: {
   highlightFillColor: function(geo) {
                 return geo['host'] || "#F0F0F0";
             },
-            highlightBorderColor: '#F5F5F5',
+            highlightBorderColor: false,
             popupTemplate: function(geo, data) {
                 return ['<div class="maphover">',
                         data.host,
@@ -46,5 +46,6 @@ geographyConfig: {
             }
         }
 });
-var colors = d3.scale.category10();
+
+
 </script>
