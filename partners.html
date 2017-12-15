@@ -5,34 +5,46 @@ header: map
 
 <div class="d-flex justify-content-center align-items-center align-content-between
  flex-wrap img_div">
-  <a href="http://www.giga.uliege.be/cms/j_6/en/home-internet"><img height=100 width=auto src="/library/images/partner_giga_logo.jpg"></a>
-  <a href="http://www.idibaps.org/"><img height=100 width=auto src="/library/images/partner_idibaps_logo.png">
-  <a href="http://www.imperial.ac.uk/"><img height=100 width=auto src="/library/images/partner_imperial_logo.png">
-  <a href="http://ki.se/en/startpage"><img height=100 width=auto src="/library/images/partner_ki_logo.png">
-  <a href="https://www.kit.edu/english/"><img height=100 width=auto src="/library/images/partner_kit_logo.png">
-  <a href="http://www.mpi-muenster.mpg.de/2377/en"><img height=100 width=auto src="/library/images/partner_mpi_logo.png">
-  <a href="https://www.birmingham.ac.uk/index.aspx"><img height=100 width=auto src="/library/images/partner_uob_logo.png">
-  <a href="http://www.riken.jp/en/"><img height=100 width=auto src="/library/images/partner_riken_logo.png">
-  <a href="http://zfin.org/"><img height=100 width=auto src="/library/images/zfin_logo.png">
+  <a href="http://www.giga.uliege.be/cms/j_6/en/home-internet"><img class="org-img-lg" src="/library/images/partner_giga_logo.jpg"></a>
+  <a href="http://www.idibaps.org/"><img class="org-img-lg" src="/library/images/partner_idibaps_logo.png"></a>
+  <a href="http://www.imperial.ac.uk/"><img class="org-img-lg" src="/library/images/partner_imperial_logo.png"></a>
+  <a href="http://ki.se/en/startpage"><img class="org-img-lg" src="/library/images/partner_ki_logo.png"></a>
+  <a href="https://www.kit.edu/english/"><img class="org-img-lg" src="/library/images/partner_kit_logo.png"></a>
+  <a href="http://www.mpi-muenster.mpg.de/2377/en"><img class="org-img-lg" src="/library/images/partner_mpi_logo.png"></a>
+  <a href="https://www.birmingham.ac.uk/index.aspx"><img class="org-img-lg" src="/library/images/partner_uob_logo.png"></a>
+  <a href="http://www.riken.jp/en/"><img class="org-img-lg" src="/library/images/partner_riken_logo.png"></a>
+  <a href="http://zfin.org/"><img class="org-img-lg" src="/library/images/zfin_logo.png"></a>
 </div>
-<div id="map" style="position: relative; width: 500px; height: 300px;"></div>
-<script>
+<div id="map" style="position: relative;"></div>
+<script type="text/javascript">
 var basic_choropleth = new Datamap({
 element: document.getElementById("map"),
 projection: 'mercator',
+
 fills: {
-  defaultFill: "#ABDDA4",
-  authorHasTraveledTo: "#fa0fa0"
+  defaultFill: "#F0F0F0",
+  host: " #30A64A"
 },
 data: {
-  USA: { fillKey: "authorHasTraveledTo" },
-  JPN: { fillKey: "authorHasTraveledTo" },
-  ITA: { fillKey: "authorHasTraveledTo" },
-  CRI: { fillKey: "authorHasTraveledTo" },
-  KOR: { fillKey: "authorHasTraveledTo" },
-  DEU: { fillKey: "authorHasTraveledTo" },
-}
+  USA: { fillKey: "host", host:'<img class="org-img" src="/library/images/zfin_logo.png">' },
+  JPN: { fillKey: "host", host:'<a href="http://www.riken.jp/en/"><img class="org-img-lg" src="/library/images/partner_riken_logo.png"></a>' },
+  BEL: { fillKey: "host", host:'<a href="http://www.giga.uliege.be/cms/j_6/en/home-internet"><img class="org-img-lg" src="/library/images/partner_giga_logo.jpg"></a>' },
+  DEU: { fillKey: "host", host:'<a href="https://www.kit.edu/english/"><img class="org-img-lg" src="/library/images/partner_kit_logo.png"></a><a href="http://www.mpi-muenster.mpg.de/2377/en"><img class="org-img-lg" src="/library/images/partner_mpi_logo.png"></a>' },
+  SWE: { fillKey: "host", host:'<a href="http://ki.se/en/startpage"><img class="org-img-lg" src="/library/images/partner_ki_logo.png"></a>' },
+  GBR: { fillKey: "host", host:'<a href="https://www.birmingham.ac.uk/index.aspx"><img class="org-img-lg" src="/library/images/partner_uob_logo.png"></a><a href="http://www.imperial.ac.uk/"><img class="org-img-lg" src="/library/images/partner_imperial_logo.png"></a>' },
+  ESP: { fillKey: "host", host:'<a href="http://www.idibaps.org/"><img class="org-img-lg" src="/library/images/partner_idibaps_logo.png"></a>' },
+},
+geographyConfig: {
+  highlightFillColor: function(geo) {
+                return geo['host'] || "#F0F0F0";
+            },
+            highlightBorderColor: '#F5F5F5',
+            popupTemplate: function(geo, data) {
+                return ['<div class="maphover">',
+                        data.host,
+                        '</div>'].join('');
+            }
+        }
 });
-
 var colors = d3.scale.category10();
 </script>

@@ -14,8 +14,9 @@ background-position: center;*/
   -o-background-size: cover;
   background-size: cover;
 }
-.container-fluid a {
-  color:inherit;
+a {
+  color:inherit;}
+.text-container a{
   text-decoration: underline;
 }
 a:hover{
@@ -124,4 +125,14 @@ margin-right: 0.25em;
 }
 hr{
 width: 100%;
+}
+#map{
+  width: 100%;
+  height: 450px;
+}
+.maphover {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    box-shadow: 0;
 }
