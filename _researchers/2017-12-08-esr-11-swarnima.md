@@ -2,27 +2,28 @@
 layout: profile
 title: Swarnima Joshi
 name: Swarnima Joshi
-profile-pic: /library/images/square.png
+profile-pic: /library/images/profiles/swarnima.jpg
 orginsation-pic: /library/images/partner_kit_logo.png
 github:
 twitter:
-linkedin:
+linkedin:https://www.linkedin.com/in/swarnima-joshi-8251a023/
 ---
 ### Background
--   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
--   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.
+-   Born in India
+-   B.Pharm., Banasthali University, India
+-   MSc. in Molecular biology and biotechnology, VMU, Lithuania
 
 ### Project
--   Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-   My project has two major parts:
+1.	Phenotypic and molecular characterization of zebrafish mobility mutant lines which were recovered from the first and third Tübingen ENU screen (Granato et al., 1996) and were not previously characterized
+
+2.	Studying RNA editing in skeletal muscle during development
+
+### Supervisor
+[Uwe Strähle](https://www.itg.kit.edu/straehle.php)
 
 ### Secondments
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Feb-March 2017- Karolinska Institute, Sweden
+
+### Keywords
+Genetics, bioinformatics, zebrafish, developmental biology
