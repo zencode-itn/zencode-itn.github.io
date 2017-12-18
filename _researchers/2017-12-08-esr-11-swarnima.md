@@ -6,7 +6,7 @@ profile-pic: /library/images/profiles/swarnima.jpg
 orginsation-pic: /library/images/partner_kit_logo.png
 github:
 twitter:
-linkedin:https://www.linkedin.com/in/swarnima-joshi-8251a023/
+linkedin: swarnima-joshi-8251a023/
 ---
 ### Background
 -   Born in India
