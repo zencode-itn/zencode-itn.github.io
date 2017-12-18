@@ -14,7 +14,7 @@ linkedin: swarnima-joshi-8251a023/
 -   MSc. in Molecular biology and biotechnology, VMU, Lithuania
 
 ### Project
--   My project has two major parts:
+My project has two major parts:
 1.	Phenotypic and molecular characterization of zebrafish mobility mutant lines which were recovered from the first and third Tübingen ENU screen (Granato et al., 1996) and were not previously characterized
 
 2.	Studying RNA editing in skeletal muscle during development
