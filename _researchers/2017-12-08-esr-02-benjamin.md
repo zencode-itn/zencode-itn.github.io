@@ -16,6 +16,8 @@ linkedin: bhernand
 My PhD project aims to generate a comprehensive catalog of monoallelic gene expression in zebrafish.
 Focusing on it's regulatory mechanisms and impact during development.
 
+
+
 ### Secondments
 -   April 2017 at Imperial College London, Lenhard Group
 
