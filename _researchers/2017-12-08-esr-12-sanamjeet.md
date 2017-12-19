@@ -9,20 +9,24 @@ twitter:
 linkedin: 
 ---
 ### Background
--   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
--   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.
+-   Nationality : Indian
+-   Bachelor of Engineering (2009), Biotechnology, Panjab University Chandigarh, India.
+-   Master of Science (2014), Bioinformatics, University of Tampere, Finland.
+-   Doctorand (Started 2015), University of Heidelberg, Germany.
 
 ### Project
--   Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Rapid identification of ENU mutation by high-throughput sequencing. The aim of the project is to focus on development of a software pipeline for data analysis, and validating it by sequencing of previously uncharacterized myogenesis mutants which mimic myopathies and neuropathies of humans.
 
 ### Secondments
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-   GIGA, University of Liege, Belgium, Bernard Peers Lab. (20.04.2016 - 05.05.2017)
+-   Max Planck institute, Muenster, in the lab Juan M. Vaquerizas (planned March 2018)
+-   MicroDiscovery GmbH, Berlin (planned June 2018) 
+
+### Supervisor(s)
+[Uwe Strähle](https://www.itg.kit.edu/straehle.php)
+[Robert Geisler](https://www.itg.kit.edu/52_415.php)
+
+### Keywords
+Forward genetics, developmental genetics, genomics, bioinformatics, mutation mapping.
+
+
