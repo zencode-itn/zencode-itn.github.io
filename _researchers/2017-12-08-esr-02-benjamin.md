@@ -1,28 +1,25 @@
 ---
 layout: profile
-title: Benjamin Hernández-Rodríguez
-name: Benjamin Hernández-Rodríguez
-profile-pic: /library/images/square.png
+title: Benjamín Hernández-Rodríguez
+name: Benjamín Hernández-Rodríguez
+profile-pic: /library/images/profiles/benjamin.jpg
 orginsation-pic: /library/images/partner_mpi_logo.png
-github:
-twitter:
-linkedin:
+twitter: the_beckhamin
+researchgate: Benjamin_Hernandez-Rodriguez
+linkedin: bhernand
 ---
 ### Background
--   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
--   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.
+-   Born in Mexico
+-   BSc in Genomic Sciences, National Autonomous University of Mexico
 
 ### Project
--   Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-   Characterization of chromatin features of monoallelic expression
 
 ### Secondments
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-   April 2017 at Imperial College London, Lenhard Group
+
+### Supervisor
+[Juanma Vaquerizas](http://www.vaquerizaslab.org/people/juanma-vaquerizas/)
+
+### Keywords
+bioinformatics, transcriptomics, monoallelic expression, gene regulation
