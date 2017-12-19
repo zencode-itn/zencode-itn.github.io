@@ -23,7 +23,7 @@ Rapid identification of ENU mutation by high-throughput sequencing. The aim of t
 -   MicroDiscovery GmbH, Berlin (planned June 2018) 
 
 ### Supervisor(s)
-[Uwe Strähle](https://www.itg.kit.edu/straehle.php)
+[Uwe Strähle](https://www.itg.kit.edu/straehle.php)</br>
 [Robert Geisler](https://www.itg.kit.edu/52_415.php)
 
 ### Keywords
