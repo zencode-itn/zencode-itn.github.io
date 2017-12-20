@@ -14,13 +14,13 @@ linkedin: bhernand
 
 ### Project
 My PhD project aims to generate a comprehensive catalog of monoallelic gene expression in zebrafish.
-Focusing on it's regulatory mechanisms and impact during development.
+Focusing on its regulatory mechanisms and impact during development.
 
 
-
-### Secondments
+<div class="no-column-break" markdown="1" >
+###  Secondments
 -   April 2017 at Imperial College London, Lenhard Group
-
+</div>
 ### Supervisor
 [Juanma Vaquerizas](http://www.vaquerizaslab.org/people/juanma-vaquerizas/)
 

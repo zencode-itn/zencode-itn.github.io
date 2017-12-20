@@ -88,6 +88,10 @@ hr {
   columns: 2 20em;
 }
 
+.no-column-break {
+  display: inline-block;
+}
+
 .profile h2,
 .profile h3 {
   color: $theme-color;
