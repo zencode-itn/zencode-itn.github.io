@@ -44,10 +44,9 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('css/main.scss')
+    return gulp.src('library/css/*.scss')
         .pipe(maps.init())
         .pipe(sass({
-            includePaths: ['_sass'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
@@ -55,16 +54,16 @@ gulp.task('sass', function () {
         .pipe(maps.write('./'))
         .pipe(gulp.dest('library/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('library/css'));
 });
 
 /**
  * Compile files from js into both _site/js (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('js', function () {
-    return gulp.src('js/*.js')
+    return gulp.src(['library/js/*.js','!library/js/*.min.js'])
         .pipe(uglify())
-        .pipe(rename('app.min.js'))
+        .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('library/js'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('js'));
@@ -75,13 +74,13 @@ gulp.task('js', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('_sass/**/*.scss', ['sass']);
-    gulp.watch('js/*.js', ['js']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch('library/css/*.scss', ['sass']);
+    gulp.watch('library/js/*.js', ['js']);
+    // gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['watch']);
