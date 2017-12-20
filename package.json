@@ -1,0 +1,28 @@
+{
+	"name": "dummy",
+	"version": "1.0.0",
+	"description": "This is a dummy description",
+	"main": "",
+	"dependencies": {
+		"browser-sync": "^2.19.0",
+		"child_process": "^1.0.2",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-cssnano": "^2.1.2",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.1.0",
+		"gulp-sourcemaps": "^2.6.1",
+		"gulp-uglify": "^3.0.0"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "MIT",
+	"readme": "This is a dummy readme"
+}
