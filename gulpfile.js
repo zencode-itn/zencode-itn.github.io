@@ -7,6 +7,8 @@ var nano        = require('gulp-cssnano');
 var maps        = require('gulp-sourcemaps');
 var uglify      = require('gulp-uglify');
 var rename      = require("gulp-rename");
+var imagemin    = require('gulp-imagemin');
+var pngquant    = require('imagemin-pngquant');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -77,6 +79,15 @@ gulp.task('watch', function () {
     gulp.watch('library/css/*.scss', ['sass']);
     gulp.watch('library/js/*.js', ['js']);
     // gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+});
+
+gulp.task('imagemin', function () {
+    return gulp.src('library/images/**/*')
+        .pipe(imagemin({
+            progressive: true,
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('imagemin-img'));
 });
 
 /**

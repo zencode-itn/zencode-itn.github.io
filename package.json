@@ -4,6 +4,7 @@
 	"description": "This is a dummy description",
 	"main": "",
 	"dependencies": {
+		"broken-link-checker": "git+ssh://git@github.com/stevenvachon/broken-link-checker.git#v0.8.0",
 		"browser-sync": "^2.19.0",
 		"child_process": "^1.0.2",
 		"gulp": "^3.9.1",
