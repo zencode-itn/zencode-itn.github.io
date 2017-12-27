@@ -2,7 +2,7 @@
 layout: profile
 title: Sanamjeet Virdi
 name: Sanamjeet Virdi
-profile-pic: /library/images/square.png
+profile-pic: /library/images/profiles/sanamjeet.jpg
 orginsation-pic: /library/images/partner_kit_logo.png
 github:
 twitter:
