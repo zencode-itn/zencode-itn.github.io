@@ -6,12 +6,13 @@ html {
 }
 
 body {
-  background-image: url("../images/BackgroundZFIN.png");
+  background-image: url("../images/allStagesSpriteVertical.png");
   font-family: sans-serif;
   margin-bottom: 60px;
-  // background-repeat: repeat;
+  // padding-top: 60px;
+  background-repeat: repeat-y;
   // background-attachment: fixed;
-  // background-position: center;
+  background-position: left 60px;
   // background-size: cover;
 }
 
@@ -177,4 +178,20 @@ hr {
   box-shadow: 0;
   display: flex;
   flex-direction: column;
+}
+.background-sprite{
+  margin-left: auto;
+  width: 120px;
+  height: 520px;
+  background: url('../images/allStagesSprite.png') left center;
+  animation: play 4s steps(36) infinite;
+}
+@keyframes play {
+   100% { background-position: -4320px; }
+}
+
+.video-container{
+  width: 500px;
+  height: 500px;
+  object-fit: fill;
 }
