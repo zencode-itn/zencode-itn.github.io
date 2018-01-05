@@ -117,7 +117,10 @@ hr {
     text-decoration: underline;
   }
 }
-
+.text-container-md{
+  @extend .text-container;
+  // margin-left: 75px;
+}
 .post-image {
   display: block;
   height: auto;
