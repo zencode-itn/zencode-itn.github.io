@@ -191,12 +191,15 @@ hr {
   height: 520px;
   background: url('../images/allStagesSprite.png') left center;
   animation: play 4s steps(36) infinite;
+  margin: 0 auto;
 }
 @keyframes play {
    100% { background-position: -4320px; }
 }
-
 .video-container{
+  width: 100%;
+}
+.video-container-square{
   width: 500px;
   height: 500px;
   object-fit: fill;
