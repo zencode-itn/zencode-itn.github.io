@@ -3,7 +3,7 @@ layout: profile
 title: Benjamín Hernández-Rodríguez
 name: Benjamín Hernández-Rodríguez
 profile-pic: /library/images/profiles/benjamin.jpg
-orginsation-pic: /library/images/partner_mpi_logo.png
+orginsation-pic: /library/images/partners/mpi_logo.png
 twitter: the_beckhamin
 researchgate: Benjamin_Hernandez-Rodriguez
 linkedin: bhernand

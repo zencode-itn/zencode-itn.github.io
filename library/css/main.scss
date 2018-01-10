@@ -181,6 +181,9 @@ hr {
   box-shadow: 0;
   display: flex;
   flex-direction: column;
+  & img{
+    margin-bottom: 0.5em;
+  }
 }
 .background-sprite{
   margin-left: auto;

@@ -3,7 +3,7 @@ layout: profile
 title: Swarnima Joshi
 name: Swarnima Joshi
 profile-pic: /library/images/profiles/swarnima.jpg
-orginsation-pic: /library/images/partner_kit_logo.png
+orginsation-pic: /library/images/partners/kit_logo.png
 github:
 twitter:
 linkedin: swarnima-joshi-8251a023/
