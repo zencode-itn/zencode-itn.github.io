@@ -135,8 +135,9 @@ hr {
 }
 
 .post-image-jenga {
+  display: inline-block;
+  width: 100%;
   height: auto;
-  width: 33%;
 }
 
 .image-gallery {
@@ -152,7 +153,11 @@ hr {
 }
 
 .image-gallery-jenga {
-  max-height: 2200px;
+  margin-top: 2em;
+  column-count: 3;
+  column-gap: 0em;
+  width: 85vw;
+  // height: 100vh;
 }
 
 .vertical-bar {
