@@ -33,8 +33,14 @@ hr {
 }
 
 .jumbotron {
-  background-image: url("../images/zencode-banner-1.jpg");
-  background-size: cover;
+  background-image: url("../images/zencode_logo.png"), url("../images/zencode-banner-blurred.png");
+  @media screen and (max-width: 600px){
+    background-size: 85%, cover;
+    min-height: 10em;
+  }
+  background-size: 600px, cover;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 20em;
 }
 
@@ -212,4 +218,6 @@ hr {
 
 .twitter{
   padding-top: 1em;
+  width: 80%;
+  margin: auto;
 }
