@@ -3,7 +3,7 @@ layout: secondment-entry
 title: Secondment at ZFIN
 esr-name: Matthias Hörtenhuber
 secondment-date: February-March 2016
-header-img: /library/images/secondments/eugene-computer.jpg
+# header-img: /library/images/secondments/eugene-computer.jpg
 secondment-place: ZFIN, Eugene, USA
 ---
 
