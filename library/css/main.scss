@@ -118,7 +118,8 @@ hr {
 .secondments .card {
   width: 48%;
   max-width: 28em;
-}
+  flex: 1 0 auto;
+  }
 
 .text-container {
   margin-top: 1em;

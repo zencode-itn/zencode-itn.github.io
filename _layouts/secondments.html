@@ -17,9 +17,9 @@ layout: default
       Each of us will visit several partner organizations during our participation in the ZENCODE-ITN and we will share our experiences here.
   </div>
 </div>
-  <div class="secondments d-flex flex-row flex-wrap align-items-start justify-content-start">
+  <div class="secondments d-flex flex-row flex-wrap align-items-stretch justify-content-center">
     {% for secondment in site.secondments reversed %}
-    <div class="card m-2 border-success">
+    <div class="card m-2 border-success d-flex">
       <div class="card-body">
         <img href="{{ secondment.url }}" class="card-img-top" src="{{secondment.header-img}}" alt="{{secondment.name}}">
         <div class="card-title">
