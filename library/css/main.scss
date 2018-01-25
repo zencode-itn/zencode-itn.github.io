@@ -196,6 +196,7 @@ hr {
 #map {
   width: 100%;
   max-width: 960px;
+  margin:0 auto;
 }
 
 .maphover {
@@ -235,7 +236,8 @@ hr {
   margin: auto;
 }
 .partner{
-  width: 90%;
+  width: 100%;
+  // max-width: 50em;
   & .twitter-tag{
     float:right;
   }
