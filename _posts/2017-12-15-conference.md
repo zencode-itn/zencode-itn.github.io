@@ -9,6 +9,9 @@ permalink: /conferences
 Our jointly organised conference with fellow ITN project [DevCom](https://www.devcom-itn.eu/) proved a great success. Set in the beautiful town of Carmona, just outside Seville in Spain. It created a beautiful backdrop for an interesting and fruitful conference that all our students were able to attend and take part in the poster session. Invaluable time was spent networking with prominent invited speakers and a session with the editor of Nat Genet was another highlight for our group.
 
 <div class="image-gallery-lg d-flex flex-row flex-wrap justify-content-center">
+<a href="library/images/carmona-poster.jpg" class="item" data-toggle="lightbox" data-gallery="gallery">
+<img src="library/images/carmona-poster.jpg" alt="image" class="post-image-lg inline-block" />
+</a>
 {% for image in site.static_files %}
 {% if image.path contains 'images/conferences' %}
 <a href="{{ image.path }}" class="item" data-toggle="lightbox" data-gallery="gallery">

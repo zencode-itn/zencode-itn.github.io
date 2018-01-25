@@ -141,12 +141,18 @@ hr {
   max-width: 100%;
   max-height: 30em;
 }
-
+.post-image-lg {
+  @extend .post-image;
+  max-height: 50em;
+}
 .post-image-sm {
   height: auto;
   width: 50%;
 }
 
+.item .post-image:hover{
+  cursor: zoom-in;
+}
 .post-image-jenga {
   display: inline-block;
   width: 100%;
