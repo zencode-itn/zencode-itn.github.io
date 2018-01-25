@@ -234,3 +234,9 @@ hr {
   width: 80%;
   margin: auto;
 }
+.partner{
+  width: 90%;
+  & .twitter-tag{
+    float:right;
+  }
+}
