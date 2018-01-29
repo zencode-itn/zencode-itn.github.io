@@ -9,6 +9,7 @@ var uglify      = require('gulp-uglify');
 var rename      = require("gulp-rename");
 var imagemin    = require('gulp-imagemin');
 var pngquant    = require('imagemin-pngquant');
+var purgecss    = require('gulp-purgecss')
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -58,7 +59,13 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('library/css'));
 });
-
+gulp.task('purgecss', () => {
+    return gulp.src('library/css/*.css')
+        .pipe(purgecss({
+            content: ["_site/**/*.html"]
+        }))
+        .pipe(gulp.dest('library/css'))
+})
 /**
  * Compile files from js into both _site/js (for live injecting) and site (for future jekyll builds)
  */
@@ -76,7 +83,7 @@ gulp.task('js', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('library/css/*.scss', ['sass']);
+    gulp.watch('library/css/*.scss', ['sass', 'purgecss']);
     gulp.watch('library/js/*.js', ['js']);
     // gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
@@ -87,7 +94,7 @@ gulp.task('imagemin', function () {
             progressive: true,
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('imagemin-img'));
+        .pipe(gulp.dest('library/images/**/*'));
 });
 
 /**
