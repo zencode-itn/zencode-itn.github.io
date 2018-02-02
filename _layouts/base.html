@@ -56,13 +56,12 @@
       background-image: none;
     }</style>
   {% endif %}
-
-  <div class="container-fluid h-100">
-    <div class="row h-100 justify-content-center align-content-between">
-      <div class="col-md-9 fluid d-flex flex-column align-items-center">
+      <div class="fluid d-flex flex-column align-items-center">
+        <div class="container-fluid h-100">
         <div class="row">
           {{ content }}
         </div>
+      </div>
       </div>
       {% comment %} {% if page.path == "index.html" %}
         {% include twitter-sidebar.html %}

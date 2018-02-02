@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
-<div class="profile d-flex flex-column  m-2 text-container">
+<div class="profile d-flex flex-column  mt-2 text-container">
   <div class="profile-header ">
-    <div class="d-flex flex-row justify-content-between">
+    <div class="d-flex flex-row flex-wrap justify-content-between">
       <img class="profile-img" src="{{ page.profile-pic }}" />
 
-      <div class="d-flex flex-column align-items-end justify-content-start">
+      <div class="d-flex flex-column flex-wrap align-items-end justify-content-start">
         <img class="org-img-lg   align-self-end" src="{{ page.orginsation-pic }}" />
         <h2 class="mt-auto">{{page.title}}</h2>
-        <div class="social-media-div d-flex flex-row w-100 justify-content-end align-items-center">
+        <div class="social-media-div d-flex flex-wrap flex-row w-100 justify-content-end align-items-center">
           {% if page.github %}
           <a class="ml-3" href="https://github.com/{{page.github}}"><i class="fab fa-github"></i> {{page.github}}</a> {% endif %} {% if page.twitter %}
           <a class="ml-3" href="https://twitter.com/{{page.twitter}}"><i class="fab fa-twitter"></i>@{{page.twitter}}</a> {% endif %} {% if page.linkedin %}
           <a class="ml-3" href="https://linkedin.com/in/{{page.linkedin}}"><i class="fab fa-linkedin"></i> {{page.linkedin | split: "-" | first}}</a> {% endif %}
           {% if page.researchgate %}<a class="ml-3" href="https://www.researchgate.net/profile/{{page.researchgate}}"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
         </div>
-
       </div>
     </div>
   </div>

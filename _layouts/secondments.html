@@ -16,7 +16,7 @@ layout: default
       </blockquote>
       Each of us will visit several partner organizations during our participation in the ZENCODE-ITN and we will share our experiences here.
   </div>
-</div>
+
   <div class="secondments d-flex flex-row flex-wrap align-items-stretch justify-content-center">
     {% for secondment in site.secondments reversed %}
     <div class="card m-2 border-success d-flex">
@@ -32,8 +32,9 @@ layout: default
         <div class="card-text">
           {{ secondment.excerpt }}
         </div>
-        <a href="{{ secondment.url }}" class="btn btn-success float-right">More</a>
+        <a href="{{ secondment.url }}" class="btn btn-success align-self-end float-right">More</a>
       </div>
     </div>
     {% endfor %}
   </div>
+</div>
