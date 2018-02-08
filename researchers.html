@@ -1,3 +1,25 @@
 ---
-layout: researchers
+layout: default
 ---
+<div class="text-container">
+  <h1 class="mt-3 text-center">Early Stage Researchers (ESRs)</h1>
+  <div class="profiles d-flex flex-row flex-wrap justify-content-center">
+    {% for researcher in site.researchers %}
+    <div class="card m-2 border-success">
+      <div class="card-body d-flex flex-column align-items-start">
+        <a class="m-auto" href="{{ researcher.url }}">
+        <img href="{{ researcher.url }}" class="card-img-top m-auto" src="{{researcher.profile-pic}}" alt="{{researcher.name}}">
+        <h2 class="card-title"  class="align-self-end">
+          {{ researcher.name }}
+        </h2>
+        </a>
+        <div class="card-text w-100 mt-auto d-flex flex-row  align-items-end justify-content-between">
+          <img class="org-img" src="{{ researcher.orginsation-pic }}" />
+          <a href="{{ researcher.url }}" class="btn btn-success ml-auto">More</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

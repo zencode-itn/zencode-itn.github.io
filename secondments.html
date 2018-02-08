@@ -1,3 +1,40 @@
 ---
-layout: secondments
+layout: default
 ---
+<div class="text-container">
+  <h1 >Secondments</h1>
+  <div class="intro">
+      <p>
+        This section aims to give insight in one aspect of our life as Early Stage Researchers (ESRs): the secondment visits. These are visits to academic and non-academic participants in our network. According to the grant agreement their aims are
+      </p>
+
+      <blockquote class="blockquote text-center">
+        <p>
+          “to gain skills in techniques and technologies not available to them in their host lab and will ensure the multidisciplinary nature of their training, whilst also broadening their outlook and exposing them to non academic environments to improve their
+          employability. Secondments also ensure ESRs are fully integrated into the Network and will consolidate collaborative projects.“
+        </p>
+      </blockquote>
+      Each of us will visit several partner organizations during our participation in the ZENCODE-ITN and we will share our experiences here.
+  </div>
+
+  <div class="secondments d-flex flex-row flex-wrap align-items-stretch justify-content-center">
+    {% for secondment in site.secondments reversed %}
+    <div class="card m-2 border-success d-flex">
+      <div class="card-body">
+        <img href="{{ secondment.url }}" class="card-img-top" src="{{secondment.header-img}}" alt="{{secondment.name}}">
+        <div class="card-title">
+          <a href="{{ secondment.url }}"><h2>{{ secondment.esr-name }}</h2>
+          <h6 class="card-subtitle mb-2 text-muted">
+            {{secondment.secondment-date}} <span class="vertical-bar"> </span>  {{secondment.secondment-place}}
+          </h6>
+        </a>
+        </div>
+        <div class="card-text">
+          {{ secondment.excerpt }}
+        </div>
+        <a href="{{ secondment.url }}" class="btn btn-success align-self-end float-right">More</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

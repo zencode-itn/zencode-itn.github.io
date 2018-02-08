@@ -121,7 +121,8 @@ hr {
 }
 
 .profile h2,
-.profile h3 {
+.profile h3,
+.profile h4 {
   color: $theme-color;
 }
 
@@ -140,6 +141,7 @@ hr {
 .text-container {
   margin-top: 1em;
   padding: 1em;
+  max-width: 60em;
   background-color: rgba(250,250,250,0.75);
   @media screen and (min-width: 800px) {
     margin-left: 120px;
