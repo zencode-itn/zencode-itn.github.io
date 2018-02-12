@@ -21,7 +21,7 @@ My Project consist of three main parts:
 3.   Gene regulation in early development of human and zebrafish
 
 ### Secondments
--   [February-March 2016 at ZFIN](/secondments/2017-12-08-matthias-zfin.html)
+-   [February-March 2016 at ZFIN](/secondments/2016-02-11-matthias-zfin.html)
 -   November-December 2016 at RIKEN
 -   2018 at Microdiscovery
 
