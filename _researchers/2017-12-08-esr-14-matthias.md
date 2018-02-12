@@ -23,7 +23,6 @@ My Project consist of three main parts:
 ### Secondments
 -   [February-March 2016 at ZFIN](/secondments/2016-02-11-matthias-zfin.html)
 -   November-December 2016 at RIKEN
--   2018 at Microdiscovery
 
 ### Supervisor
 [Carsten O. Daub](https://www.daublab.org/)

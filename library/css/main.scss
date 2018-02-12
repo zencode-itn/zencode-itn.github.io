@@ -23,11 +23,13 @@ body {
 }
 
 a {
-  color: inherit;
+  color:$theme-color;
+  text-decoration: none;
 }
 
 a:hover {
-  color: $theme-color;
+  color:black;
+  text-decoration: underline;
 }
 
 h1 {
@@ -147,9 +149,9 @@ hr {
     margin-left: 120px;
   }
 
-  a {
-    text-decoration: underline;
-  }
+  // a {
+  //   text-decoration: underline;
+  // }
 }
 
 .post-image {
@@ -215,7 +217,7 @@ hr {
   a {
     text-decoration: none;
   &:hover{
-    text-decoration:underline;  
+    text-decoration:underline;
   }
   }
 }
