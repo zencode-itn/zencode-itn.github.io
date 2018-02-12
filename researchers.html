@@ -6,8 +6,8 @@ layout: default
   <div class="profiles d-flex flex-row flex-wrap justify-content-center">
     {% for researcher in site.researchers %}
     <div class="card m-2 border-success">
-      <div class="card-body d-flex flex-column align-items-start">
-        <a class="m-auto" href="{{ researcher.url }}">
+      <div class="card-body d-flex flex-column align-items-start justify-content-start">
+        <a class="" href="{{ researcher.url }}">
         <img href="{{ researcher.url }}" class="card-img-top m-auto" src="{{researcher.profile-pic}}" alt="{{researcher.name}}">
         <h2 class="card-title"  class="align-self-end">
           {{ researcher.name }}
