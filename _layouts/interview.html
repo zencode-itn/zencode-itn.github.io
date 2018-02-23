@@ -3,13 +3,23 @@ layout: default
 ---
 <div class="profile d-flex flex-column  mt-2 text-container">
   <div class="profile-header ">
-    <div class="d-flex flex-row flex-wrap justify-content-between">
-      <h2 class="mt-auto">{{page.title}}</h2>
-      <img class="org-img-lg   align-self-end" src="{{ page.orginsation-pic }}" />
+    <div class="d-flex flex-row flex-wrap align-items-start justify-content-between">
+      <div class="d-flex flex-column">
+        {% unless page.video-link %}
+        <img class="profile-img" src="{{ page.profile-pic }}" />
+        {% endunless %}
+        <h2 class="mb-0 mt-2">{{page.title}}</h2>
+      </div>
+      <img class="org-img-lg   align-self-start" src="{{ page.orginsation-pic }}" />
     </div>
   </div>
-  <hr/>
+  <hr class=""/>
+
   <div class="profile-text">
-    {{ content }}
+    {% if page.video-link %}
+    <div class="d-flex justify-content-center mb-3">
+      <iframe width="560" height="255" src="{{page.video-link}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    {% endif %} {{ content }}
   </div>
 </div>
