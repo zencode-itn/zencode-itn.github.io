@@ -4,8 +4,7 @@
 
 title:           ZENCODE-ITN
 email:           zencode@gmail.commit
-description:     >- # this means to ignore newlines until "baseurl:"
-The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.
+description:     The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.
 baseurl:         "" # the subpath of your site, e.g. /blog
 url:             https://zencode-itn.eu # the base hostname & protocol for your site, e.g. http://example.com
 
