@@ -7,31 +7,42 @@
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#30A64A">
   <!-- HTML Meta Tags -->
-  <title>ZENCODE-ITN</title>
-  <meta name="description" content="The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.">
+  <title>{{page.title}}</title>
+
 
   <!-- Google / Search Engine Tags -->
-  <meta itemprop="name" content="ZENCODE-ITN">
-  <meta itemprop="description" content="The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.">
-  <meta itemprop="image" content="/library/images/zencode_thumbnail.png">
+  <meta itemprop="name" content="{{page.title}}">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://zencode-itn.github.io">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ZENCODE-ITN">
-  <meta property="og:description" content="The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.">
-  <meta property="og:image" content="/library/images/zencode_thumbnail.png">
+  <meta property="og:title" content="{{page.title}}">
+
 
   <!-- Twitter Meta Tags -->
 
   <meta name="twitter:title" content="{{page.title}}">
-  {% if page.twitter-card-image %}
+  {% if page.preview-image %}
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{site.url}}{{page.twitter-card-image}}">
+  <meta name="twitter:image" content="{{site.url}}{{page.preview-image}}">
+  <meta property="og:image" content="{{site.url}}{{page.preview-image}}">
+  <meta itemprop="image" content="{{site.url}}{{page.preview-image}}">
   {% else %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="/library/images/zencode_thumbnail.png">
-  <meta name="twitter:description" content="The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.">
+  <meta name="twitter:image" content="{{site.url}}/library/images/zencode_thumbnail.png">
+  <meta property="og:image" content="{{site.url}}/library/images/zencode_thumbnail.png">
+  <meta itemprop="image" content="{{site.url}}/library/images/zencode_thumbnail.png">
+  {% endif %}
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  <meta property="og:description" content="{{ page.summary }}">
+  <meta name="description" content="{{page.summary}}">
+  <meta itemprop="description" content="{{page.summary}}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta name="description" content="{{site.description}}">
+  <meta itemprop="description" content="{{site.description}}">
   {% endif %}
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
