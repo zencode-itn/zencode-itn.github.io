@@ -23,11 +23,16 @@
   <meta property="og:image" content="/library/images/zencode_thumbnail.png">
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ZENCODE-ITN">
-  <meta name="twitter:description" content="The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.">
-  <meta name="twitter:image" content="/library/images/zencode_thumbnail.png">
 
+  <meta name="twitter:title" content="{{page.title}}">
+  {% if page.twitter-card-image %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{site.url}}{{page.twitter-card-image}}">
+  {% else %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/library/images/zencode_thumbnail.png">
+  <meta name="twitter:description" content="The ZENCODE Initial Training Network aims to improve career perspectives of early-stage researchers (ESR) in both public and private sectors, thereby making research careers more attractive to young people. The scientific focus of the ZENCODE-ITN consortium is to understand genome regulation through combined experimental and computational approaches in a model vertebrate.">
+  {% endif %}
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
