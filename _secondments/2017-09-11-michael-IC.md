@@ -13,16 +13,14 @@ Main points of the secondment included:
 - Improving documentation of the DCC : details of pipeline, introduction of versionning, etc.
 - Working in another environment : improving experience and work relations, learning from other members of the Boris Lab as well as other people through seminars and group meeting. Also getting support form other bioinformaticians for the project.
 
-////work in progress
+//// work in progress
 
-![Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)](/library/images/secondments/michael_IC_1.png)
-*Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)*
-
-
+# ![Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)](/library/images/secondments/michael_IC_1.png)
+# *Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)*
 
 
-![Goodbye London :'(](/library/images/secondments/michael_IC_2.png)
-*Goodbye London :'(*
+# ![Goodbye London :'(](/library/images/secondments/michael_IC_2.png)
+# *Goodbye London :'(*
 
 I took a lot of things home from this secondment visit, besides the direct input for my project.
 
