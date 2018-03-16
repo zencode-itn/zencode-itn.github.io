@@ -15,14 +15,13 @@ Main points of the secondment included:
 
 //// work in progress
 
-![Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)](/library/images/secondments/michael_IC_1.png)
+![Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)](/library/images/secondments/michael_IC_1.jpg)
 *Enjoying dinner with the full Lenhard Lab... and Robert Pattinson!!! (sorry Dunja)*
 
 
-![Goodbye London :'(](/library/images/secondments/michael_IC_2.png)
+![Goodbye London :'(](/library/images/secondments/michael_IC_2.jpg)
 *Goodbye London :'(*
 
 I took a lot of things home from this secondment visit, besides the direct input for my project.
 
 Conclusion:
-
