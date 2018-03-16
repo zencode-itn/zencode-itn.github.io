@@ -21,8 +21,8 @@ My Project consist of three main parts:
 3.   Gene regulation in early development of human and zebrafish
 
 ### Secondments
--   [February-March 2016 at ZFIN](/secondments/2016-02-11-matthias-zfin.html)
--   November-December 2016 at RIKEN
+-   [February–March 2016 at ZFIN](/secondments/2016-02-11-matthias-zfin.html)
+-   November–December 2016 at RIKEN
 
 ### Supervisor
 [Carsten O. Daub](https://www.daublab.org/)

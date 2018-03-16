@@ -2,7 +2,7 @@
 layout: secondment-entry
 title: Secondment at Imperial College
 esr-name: Michaël Dong
-secondment-date: September-November 2017
+secondment-date: September–November 2017
 secondment-place: Imperial College London, UK
 ---
 
