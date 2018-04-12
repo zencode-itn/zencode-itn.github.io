@@ -8,7 +8,7 @@ secondment-place: Imperial College London, UK
 
 Secondment in London, at MRC, Imperial College.
 
-During the past years, zebrafish has become an increasingly important model organism for research. In order to organize and coordinate all the genomics data between the different data users, the DANIO-CODE Data Coordination Center (DCC) has been deployed in 2016 to allow DANIO-CODE consortium members to submit and view their data sets annotated with standardized metadata nomenclatures. As part of the project, we are developing computational pipelines to process raw sequencing data and map it to the latest zebrafish reference genome sequence (GRCz10).
+During the past years, zebrafish has become an increasingly important model organism for research. In order to organize and coordinate all the genomics data between the different data users, the DANIO-CODE Data Coordination Center (DCC) has been deployed in 2016 to allow DANIO-CODE consortium members to submit and view their datasets annotated with standardized metadata nomenclatures. As part of the project, we are developing computational pipelines to process raw sequencing data and map it to the latest zebrafish reference genome sequence (GRCz10).
 
 A post-doc from Boris Lenhard's lab, at Imperial College, decided to collaborate with us on the DANIO-CODE DCC project, for the data processing workflows, the quality control and on the development of the DCC platform.
 
