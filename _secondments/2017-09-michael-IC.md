@@ -44,4 +44,4 @@ I finally left London in November, tired and ready to use all those new skills g
 
 And there ends my secondment at Imperial College. In 2 months, I learned a lot, from data processing to analysis and quality control of transcriptomic datasets, but also socialized with the members of the team, and discovered a new culture. The only issue, in my opinion was that, for a first stay, those 2 months have been very long, if not too long.
 
-I would like to thank Dr. Damir Baransic-sensei (I won't regret the "tiramisoup"), Dr. Boris Lenhart and the rest of the Computational Regulatory Genomics team, for welcoming me in their office during this period and sharing with me their experience of bioinformatics.
+I would like to thank Dr. Damir Baransic-sensei (I won't regret the "tiramisoup"), Dr. Boris Lenhart and the rest of the Computational Regulatory Genomics team, for welcoming me in their office during this period and sharing with me their research experience.
