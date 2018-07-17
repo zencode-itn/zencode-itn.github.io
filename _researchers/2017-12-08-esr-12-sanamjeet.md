@@ -3,10 +3,11 @@ layout: profile
 title: Sanamjeet Virdi
 name: Sanamjeet Virdi
 profile-pic: /library/images/profiles/sanamjeet.jpg
+preview-image: /library/images/profiles/sanamjeet.jpg
 orginsation-pic: /library/images/partners/kit_logo.png
 github:
 twitter:
-linkedin: 
+linkedin:
 ---
 ### Background
 -   Nationality : Indian
@@ -20,7 +21,7 @@ Rapid identification of ENU mutation by high-throughput sequencing. The aim of t
 ### Secondments
 -   GIGA, University of Liege, Belgium, Bernard Peers Lab. (20.04.2016 - 05.05.2017)
 -   Max Planck institute, Muenster, in the lab Juan M. Vaquerizas (planned March 2018)
--   MicroDiscovery GmbH, Berlin (planned June 2018) 
+-   MicroDiscovery GmbH, Berlin (planned June 2018)
 
 ### Supervisor(s)
 -   [Uwe Strähle](https://www.itg.kit.edu/straehle.php)
@@ -28,5 +29,3 @@ Rapid identification of ENU mutation by high-throughput sequencing. The aim of t
 
 ### Keywords
 Forward genetics, developmental genetics, genomics, bioinformatics, mutation mapping.
-
-

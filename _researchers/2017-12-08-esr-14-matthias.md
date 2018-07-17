@@ -3,6 +3,7 @@ layout: profile
 title: Matthias Hörtenhuber
 name: Matthias Hörtenhuber
 profile-pic: /library/images/profiles/matthias.jpg
+preview-image: /library/images/profiles/matthias.jpg
 orginsation-pic: /library/images/partners/ki_logo.png
 github: mashehu
 twitter: mashehu
