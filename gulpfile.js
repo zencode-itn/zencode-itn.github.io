@@ -31,7 +31,7 @@ gulp.task('jekyll-build', function(done) {
 gulp.task('jekyll-serve', function(done) {
   browserSync.notify(messages.jekyllBuild);
   return cp
-    .spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--livereload'], {
+    .spawn('bundle', ['exec', 'jekyll', 'serve'], {
       stdio: 'inherit'
     })
     .on('close', done);
