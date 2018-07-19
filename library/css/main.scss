@@ -172,7 +172,9 @@ hr {
   width: 50%;
 }
 
-.item .post-image:hover {
+.item .post-image:hover,
+.item .post-image-sm:hover,
+.item .post-image-lg:hover {
   cursor: zoom-in;
 }
 
