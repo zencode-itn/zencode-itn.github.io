@@ -1,3 +1,7 @@
+before_install:
+ gem update --system
+ gem install bundler
+
 deploy:
   provider: pages
   skip_cleanup: true
