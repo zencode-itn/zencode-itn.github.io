@@ -3,6 +3,21 @@ layout: post
 title: Conferences
 permalink: /conferences
 ---
+## Final ZENCODE-ITN Meeting, 28th Oct – 31st Oct 2018, Cape Sounio, Greece
+
+The final ZENCODE-ITN Meeting took place in Cape Sounio, Greece on October 28th 2018. The topic was **Developmental and medical genomics with animal models**.
+
+It was a three-day event that featured talks from 21 invited speakers, as well as student talks and poster sessions. [ZENCODE-ITN Sounio Program](https://sounio.zencode-itn.eu/#program)
+ 
+A keynote address was delivered by Monte Westerfield of University of Oregon on genetic models of Usher Syndrome using Zebrafish. 
+
+There was a good mix of talks from zebrafish transcriptional regulation (Ferenc Mueller- University of Birmingham) to post-transcriptional regulation (Eivind Valen – University of Bergen) to canine models of disease (Hannes Lohi- University of Helsinki). Among the invited speakers were Paul Flicek (European Bioinformatics Institute), Piero Carnici (RIKEN, Japan) and Albin Sandelin (Copenhagen University). 
+
+Last day of the conference ended with a social trip to the Temple of Poseidon, built circa 440 B.C. 
+
+Perched 60 m above the Aegean Sea, the Best Student Presentation Award was awarded to Benjamín Hernández-Rodríguez (Max Plank Institute for Molecular Biomedicine) and Best Poster Award to Dunja Vucenovic (Imperial College London). 
+
+
 
 ## Gene-Regulatory Systems in Development 27th-29th March 2017, Carmona, Spain
 
