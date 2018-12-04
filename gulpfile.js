@@ -109,7 +109,7 @@ gulp.task(
  */
 gulp.task('watch', function() {
   gulp.watch('library/css/*.scss', gulp.series('sass', 'purgecss'));
-  gulp.watch('library/js/*.js', gulp.series('js'));
+  gulp.watch(['library/js/*.js','!library/js/*.min.js'], gulp.series('js'));
   // gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
