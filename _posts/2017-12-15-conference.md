@@ -7,7 +7,7 @@ permalink: /conferences
 
 The final ZENCODE-ITN Meeting took place in Cape Sounio, Greece on October 28th 2018. The topic was **Developmental and medical genomics with animal models**.
 
-It was a three-day event that featured talks from 21 invited speakers, as well as student talks and poster sessions [ZENCODE-ITN Sounio Program](https://www.sounio.zencode-itn.eu/#program).
+It was a three-day event that featured talks from 21 invited speakers, as well as student talks and poster sessions. [ZENCODE-ITN Sounio Program](https://sounio.zencode-itn.eu/#program)
  
 A keynote address was delivered by Monte Westerfield of University of Oregon on genetic models of Usher Syndrome using Zebrafish. 
 
