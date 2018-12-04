@@ -118,11 +118,11 @@ gulp.task('imagemin', function() {
     .src('library/images/**/*')
     .pipe(
       imagemin({
-        progressive: true,
-        use: [pngquant()]
+        progressive: true
+        // use: [pngquant()]
       })
     )
-    .pipe(gulp.dest('library/images/**/*'));
+    .pipe(gulp.dest('library/images/'));
 });
 
 /**
