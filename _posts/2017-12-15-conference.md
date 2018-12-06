@@ -7,15 +7,27 @@ permalink: /conferences
 
 The final ZENCODE-ITN Meeting took place in Cape Sounio, Greece on October 28th 2018. The topic was **Developmental and medical genomics with animal models**.
 
-It was a three-day event that featured talks from 21 invited speakers, as well as student talks and poster sessions. [ZENCODE-ITN Sounio Program](https://sounio.zencode-itn.eu/#program)
- 
-A keynote address was delivered by Monte Westerfield of University of Oregon on genetic models of Usher Syndrome using Zebrafish. 
+It was a three-day event that featured talks from 11 invited speakers, the PIs inside the ZENCODE-ITN, as well as ESR talks and poster session ([see the program](https://sounio.zencode-itn.eu/#program)).
+<div class="image-gallery-lg d-flex flex-row flex-wrap justify-content-center">
+<a href="library/images/sounio_group.jpg" class="item" data-toggle="lightbox" data-gallery="gallery">
+<img src="library/images/sounio_group.jpg" alt="image" class="post-image-lg inline-block" />
+</a>
+</div>
+A keynote address was delivered by Monte Westerfield of University of Oregon on genetic models of Usher Syndrome using Zebrafish.
 
-There was a good mix of talks from zebrafish transcriptional regulation (Ferenc Mueller- University of Birmingham) to post-transcriptional regulation (Eivind Valen – University of Bergen) to canine models of disease (Hannes Lohi- University of Helsinki). Among the invited speakers were Paul Flicek (European Bioinformatics Institute), Piero Carnici (RIKEN, Japan) and Albin Sandelin (Copenhagen University). 
-
-Last day of the conference ended with a social trip to the Temple of Poseidon, built circa 440 B.C. 
-
-Perched 60 m above the Aegean Sea, the Best Student Presentation Award was awarded to Benjamín Hernández-Rodríguez (Max Plank Institute for Molecular Biomedicine) and Best Poster Award to Dunja Vucenovic (Imperial College London). 
+There was a good mix of talks from zebrafish transcriptional regulation to post-transcriptional regulation to canine models of diseases.
+<div class="image-gallery-lg d-flex flex-row flex-wrap justify-content-center">
+<a href="library/images/sounio_group_temple.jpg" class="item" data-toggle="lightbox" data-gallery="gallery">
+<img src="library/images/sounio_group_temple.jpg" alt="image" class="post-image-lg inline-block" />
+</a>
+</div>
+The last day of the conference ended with a social trip to the Temple of Poseidon, built circa 440 B.C.
+<div class="image-gallery-lg d-flex flex-row flex-wrap justify-content-center">
+<a href="library/images/sounio_winners.jpg" class="item" data-toggle="lightbox" data-gallery="gallery">
+<img src="library/images/sounio_winners.jpg" alt="image" class="post-image-lg inline-block" />
+</a>
+</div>
+Perched 60 m above the Aegean Sea, the Best Student Presentation Award was given to [Benjamín Hernández-Rodríguez](/researchers//2017-12-08-esr-02-benjamin) and Best Poster Award to [Dunja Vucenovic](/researchers/2017-12-08-esr-01-dunja).
 
 
 
